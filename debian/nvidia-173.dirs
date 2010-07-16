@@ -4,7 +4,6 @@
 /usr/bin
 /usr/lib/nvidia-173/tls
 /usr/include/GL
-/usr/include/cuda
 /usr/lib/nvidia-173/bin
 /usr/lib/nvidia-173
 /usr/lib32/nvidia-173

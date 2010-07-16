@@ -11,7 +11,4 @@
 /usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.27 /usr/lib32/nvidia-173/libXvMCNVIDIA.so.1
 /usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.27 /usr/lib32/nvidia-173/libXvMCNVIDIA_dynamic.so.1
 
-/usr/lib32/nvidia-173/libcuda.so.173.14.27 /usr/lib32/nvidia-173/libcuda.so
-/usr/lib32/nvidia-173/libcuda.so.173.14.27 /usr/lib32/nvidia-173/libcuda.so.1
-
 /usr/lib32/nvidia-173/libnvidia-tls.so.173.14.27 /usr/lib32/nvidia-173/libnvidia-tls.so.1

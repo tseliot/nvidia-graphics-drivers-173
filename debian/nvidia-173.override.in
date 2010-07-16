@@ -21,8 +21,6 @@
 #DRIVERNAME#: shlib-without-PT_GNU_STACK-section usr/lib/#DRIVERNAME#/libGLcore.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib/#DRIVERNAME#/libXvMCNVIDIA.so.#VERSION#
 #DRIVERNAME#: shlib-without-PT_GNU_STACK-section usr/lib/#DRIVERNAME#/libXvMCNVIDIA.so.#VERSION#
-#DRIVERNAME#: shlib-with-non-pic-code usr/lib/#DRIVERNAME#/libcuda.so.#VERSION#
-#DRIVERNAME#: shlib-without-PT_GNU_STACK-section usr/lib/#DRIVERNAME#/libcuda.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib/#DRIVERNAME#/libnvidia-cfg.so.#VERSION#
 #DRIVERNAME#: shlib-without-PT_GNU_STACK-section usr/lib/#DRIVERNAME#/libnvidia-cfg.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib/#DRIVERNAME#/libnvidia-tls.so.#VERSION#
@@ -73,7 +71,6 @@ nvidia-glx-185: unknown-section restricted/misc
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libGLcore.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libXvMCNVIDIA.so.#VERSION#
 #DRIVERNAME#: shlib-without-PT_GNU_STACK-section usr/lib32/#DRIVERNAME#/libXvMCNVIDIA.so.#VERSION#
-#DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libcuda.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libnvidia-cfg.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libnvidia-tls.so.#VERSION#
 #DRIVERNAME#: shlib-with-non-pic-code usr/lib32/#DRIVERNAME#/libvdpau_nvidia.so.#VERSION#

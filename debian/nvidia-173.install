@@ -5,7 +5,6 @@ NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/X11R6/lib/modules/extensions/libglx.so.17
 
 NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/lib/libGL*.so*                  /usr/lib/nvidia-173
 NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/lib/libnvidia*.so*              /usr/lib/nvidia-173
-NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/lib/libcuda*.so*                /usr/lib/nvidia-173
 
 NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/lib/tls/*.so*                   /usr/lib/nvidia-173/tls
 

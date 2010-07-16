@@ -21,8 +21,6 @@ nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libGLcore.so.173.14.27
 nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libGLcore.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.27
 nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.27
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libcuda.so.173.14.27
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libcuda.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-cfg.so.173.14.27
 nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libnvidia-cfg.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-tls.so.173.14.27
@@ -73,7 +71,6 @@ nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGL.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGLcore.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.27
 nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.27
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libcuda.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-cfg.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-tls.so.173.14.27
 nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libvdpau_nvidia.so.173.14.27

@@ -11,7 +11,4 @@
 #PKGLIBDIR#/libXvMCNVIDIA.so.#VERSION# #PKGLIBDIR#/libXvMCNVIDIA.so.1
 #PKGLIBDIR#/libXvMCNVIDIA.so.#VERSION# #PKGLIBDIR#/libXvMCNVIDIA_dynamic.so.1
 
-#PKGLIBDIR#/libcuda.so.#VERSION# #PKGLIBDIR#/libcuda.so
-#PKGLIBDIR#/libcuda.so.#VERSION# #PKGLIBDIR#/libcuda.so.1
-
 #PKGLIBDIR#/libnvidia-tls.so.#VERSION# #PKGLIBDIR#/libnvidia-tls.so.1

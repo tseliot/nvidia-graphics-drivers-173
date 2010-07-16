@@ -233,7 +233,7 @@ ifeq ($(DEB_BUILD_ARCH),amd64)
 
 	dh_install -p$(PKG_driver) "$(dirname_x86)$(libdir)/libGL*.so*"  "$(PKG_libdir32)"
 	dh_install -p$(PKG_driver) "$(dirname_x86)$(libdir)/libnvidia*.so*"  "$(PKG_libdir32)"
-	dh_install -p$(PKG_driver) "$(dirname_x86)$(libdir)/libcuda*.so*"  "$(PKG_libdir32)"
+	#dh_install -p$(PKG_driver) "$(dirname_x86)$(libdir)/libcuda*.so*"  "$(PKG_libdir32)"
 
 	dh_install -p$(PKG_driver)  "$(dirname_x86)/usr/X11R6/lib/*.so*"  "$(PKG_libdir32)"
 	dh_install -p$(PKG_driver)  "$(dirname_x86)$(tlsdir)/lib*"  "$(PKG_tlsdir32)"
