@@ -5,7 +5,6 @@ debian/#DRIVERNAME#.override                 usr/share/lintian/overrides
 
 #DIRNAME#/usr/lib/libGL*.so*                  #PKGLIBDIR#
 #DIRNAME#/usr/lib/libnvidia*.so*              #PKGLIBDIR#
-#DIRNAME#/usr/lib/libcuda*.so*                #PKGLIBDIR#
 
 #DIRNAME#/usr/lib/tls/*.so*                   #PKGTLSDIR#
 
