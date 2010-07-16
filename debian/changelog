@@ -1,3 +1,14 @@
+nvidia-graphics-drivers-173 (173.14.27-0ubuntu1) maverick; urgency=low
+
+  * New upstream release:
+    - Fixed a bug in the XvMC driver that prevented it from working on
+      systems with AGP graphics cards.
+    - Added support for X.Org xserver 1.8.
+    - Fixed a bug that could cause X.Org xserver >= 1.7 to hang when
+      restarted.
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Jul 2010 12:13:01 +0200
+
 nvidia-graphics-drivers-173 (173.14.22-0ubuntu11) lucid; urgency=low
 
   * debian/nvidia-$flavour.{dirs|postinst}.in, rules:
