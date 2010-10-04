@@ -1,4 +1,4 @@
-nvidia-graphics-drivers-173 (173.14.28-0ubuntu1) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.28-0ubuntu1) maverick; urgency=low
 
   * New upstream release:
     - Add support for X.Org xserver 1.9 (LP: #626918).
@@ -10,7 +10,7 @@ nvidia-graphics-drivers-173 (173.14.28-0ubuntu1) UNRELEASED; urgency=low
   * debian/dkms/patches/nvidia-2.6.36-ioctl.patch:
     - Add compatibility with kernel 2.6.36.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Mon, 04 Oct 2010 13:01:00 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 04 Oct 2010 14:11:43 +0200
 
 nvidia-graphics-drivers-173 (173.14.27-0ubuntu1) maverick; urgency=low
 
