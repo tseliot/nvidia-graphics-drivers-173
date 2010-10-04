@@ -1,3 +1,11 @@
+nvidia-graphics-drivers-173 (173.14.28-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release:
+    - Switch to new xsfbs variables to get the server ABI
+      (LP: #616214).
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 04 Oct 2010 12:26:09 +0200
+
 nvidia-graphics-drivers-173 (173.14.27-0ubuntu1) maverick; urgency=low
 
   * New upstream release:
