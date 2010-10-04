@@ -1,3 +1,3 @@
-NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/X11R6/lib/libXvMCNVIDIA.a       /usr/lib/nvidia-173
+NVIDIA-Linux-x86_64-173.14.28-pkg2/usr/X11R6/lib/libXvMCNVIDIA.a       /usr/lib/nvidia-173
 
-NVIDIA-Linux-x86_64-173.14.27-pkg2/usr/include/*                       /usr/include/nvidia-173
+NVIDIA-Linux-x86_64-173.14.28-pkg2/usr/include/*                       /usr/include/nvidia-173
