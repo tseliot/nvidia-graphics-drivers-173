@@ -1,4 +1,4 @@
-nvidia-graphics-drivers-173 (173.14.28-0ubuntu3) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.28-0ubuntu3) natty; urgency=low
 
   * debian/nvidia-173.prerm{.in}:
     - Call dpkg-trigger with --by-package=$PACKAGE_NAME.
@@ -12,7 +12,7 @@ nvidia-graphics-drivers-173 (173.14.28-0ubuntu3) UNRELEASED; urgency=low
       In practice this means that you can replace any part of the ID string
       with .* to match anything.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 07 Jan 2011 13:29:39 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 07 Jan 2011 13:32:17 +0100
 
 nvidia-graphics-drivers-173 (173.14.28-0ubuntu2) natty; urgency=low
 
