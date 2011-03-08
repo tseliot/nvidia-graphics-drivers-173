@@ -24,12 +24,12 @@ Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
  This package also includes the source for building the kernel module
  required by the Xorg driver.
  .
- GPUs ranging from GeForce series 5 to Geforce series 9 are supported.
+ GPUs ranging from GeForce series 5 to GeForce series 9 are supported.
  .
- See /usr/share/doc/#DRIVERNAME#/README.txt.gz for a complete list 
+ See /usr/share/doc/#DRIVERNAME#/README.txt.gz for a complete list
  of supported GPUs and PCIIDs
  .
- 
+
 Package: #DRIVERDEVNAME#
 Architecture: i386 amd64 lpia
 Depends: #DRIVERNAME# (>= #VERSION#)
@@ -53,7 +53,7 @@ Depends: #DRIVERDEVNAME#
 Description: Transitional package for nvidia-glx-173-dev
  This is a transitional package for nvidia-glx-173-dev, and can be safely removed
  after the installation is complete.
- 
+
 Package: nvidia-173-kernel-source
 Architecture: i386 amd64 lpia
 Depends: #DRIVERNAME#
