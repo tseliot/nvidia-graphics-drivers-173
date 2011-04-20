@@ -1,8 +1,10 @@
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu1) UNRELEASED; urgency=low
 
-  * 
+  * New upstream release:
+    - Add support for X.Org xserver 1.10 (LP: #741930).
+    - Improve compatibility with recent Linux kernels.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 20 Apr 2011 12:25:27 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 20 Apr 2011 12:54:48 +0200
 
 nvidia-graphics-drivers-173 (173.14.28-0ubuntu6) natty; urgency=low
 
