@@ -1,8 +1,17 @@
-nvidia-graphics-drivers-173 (173.14.30-0ubuntu2) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.30-0ubuntu2) oneiric; urgency=low
 
-  * 
+  * debian/dkms.conf{.in}:
+    - Enable builds for 3.0 kernels.
+  * debian/control{.in}:
+    - Drop transitional packages.
+  * Add fix-build-with-linux-3.0.patch:
+    - Add support for linux 3.0.
+  * Drop obsolete patches:
+    - NVIDIA_173.14.12_2.6.27.patch, fall_back_on_mtrr_if_no_pat.patch,
+      nvidia-2.6.36-ioctl.patch, nvidia-rt-compat-legacy.patch,
+      rt_preempt_31.patchv.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 14 Jun 2011 16:16:24 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 14 Jun 2011 17:24:43 +0200
 
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu1) natty; urgency=low
 
