@@ -1,0 +1,39 @@
+From f5faf62cf5c025ae27adaf095046833ccd388f5c Mon Sep 17 00:00:00 2001
+From: Alberto Milone <alberto.milone@canonical.com>
+Date: Tue, 14 Jun 2011 16:27:32 +0200
+Subject: [PATCH 1/1] Fix build with linux 3.0
+
+---
+ conftest.sh |    2 +-
+ nv-linux.h  |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/conftest.sh b/conftest.sh
+index 9463c61..5ee43a7 100644
+--- a/conftest.sh
++++ b/conftest.sh
+@@ -77,7 +77,7 @@ test_xen() {
+ build_cflags() {
+     ARCH=`uname -m | sed -e 's/i.86/i386/'`
+ 
+-    BASE_CFLAGS="-D__KERNEL__ \
++    BASE_CFLAGS="-O2 -D__KERNEL__ \
+ -DKBUILD_BASENAME=\"#conftest$$\" -DKBUILD_MODNAME=\"#conftest$$\" \
+ -nostdinc -isystem $ISYSTEM"
+ 
+diff --git a/nv-linux.h b/nv-linux.h
+index 524e0dd..70eedc3 100644
+--- a/nv-linux.h
++++ b/nv-linux.h
+@@ -30,7 +30,7 @@
+ #  define KERNEL_2_4
+ #elif LINUX_VERSION_CODE < KERNEL_VERSION(2, 6, 0)
+ #  error This driver does not support 2.5 kernels!
+-#elif LINUX_VERSION_CODE < KERNEL_VERSION(2, 7, 0)
++#elif LINUX_VERSION_CODE < KERNEL_VERSION(4, 0, 0)
+ #  define KERNEL_2_6
+ #else
+ #  error This driver does not support development kernels!
+-- 
+1.7.4.1
+
