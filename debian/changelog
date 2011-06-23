@@ -1,8 +1,11 @@
-nvidia-graphics-drivers-173 (173.14.30-0ubuntu3) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.30-0ubuntu3) oneiric; urgency=low
 
-  * 
+  * debian/rules, debian/nvidia-173.prerm{.in},
+    debian/nvidia-173.postinst{.in}:
+    - Add initial support for multi-arch (LP: #798049).
+    - Remove obsolete instructions.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 21 Jun 2011 12:24:51 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 23 Jun 2011 16:59:30 +0200
 
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu2) oneiric; urgency=low
 
