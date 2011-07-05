@@ -1,3 +1,11 @@
+nvidia-graphics-drivers-173 (173.14.30-0ubuntu4) oneiric; urgency=low
+
+  * Use an empty ld.so.conf when installing alternative for the
+    non-native arch, otherwise it would be impossible to switch
+    to mesa without installing mesa for the same architecture.
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 27 Jun 2011 15:37:36 +0100
+
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu3) oneiric; urgency=low
 
   * debian/rules, debian/nvidia-173.prerm{.in},
