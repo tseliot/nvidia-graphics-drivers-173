@@ -1,5 +1,5 @@
 #! /bin/sh
-# postrm script for nvidia-173
+# postrm script for nvidia-173-updates
 #
 # see: dh_installdeb(1)
 #

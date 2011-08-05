@@ -1,5 +1,5 @@
 #! /bin/sh
-# preinst script for nvidia-173
+# preinst script for nvidia-173-updates
 #
 # see: dh_installdeb(1)
 #
