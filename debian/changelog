@@ -1,8 +1,16 @@
-nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu2) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu2) oneiric; urgency=low
 
-  * 
+  * debian/nvidia-173-updates.postinst{.in}:
+    - Make sure to create and use X.Org's multiarch extra modules
+      path (LP: #807209).
+    - Share the same name for grub's blacklist file for all
+      drivers.
+  * debian/rules:
+    - Fix issues with pbuild.
+    - Do not provide the X abi any longer. Depending on the ABI is
+      enough.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 30 Aug 2011 17:10:47 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 30 Aug 2011 17:33:58 +0200
 
 nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu1) oneiric; urgency=low
 
