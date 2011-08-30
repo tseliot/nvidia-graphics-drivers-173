@@ -125,13 +125,13 @@ case "$1" in
             --slave /etc/xdg/autostart/nvidia-autostart.desktop x86_64-linux-gnu_nvidia-autostart.desktop /usr/share/nvidia-173/nvidia-autostart.desktop \
             --slave /usr/lib/xorg/modules/drivers/nvidia_drv.so x86_64-linux-gnu_nvidia_drv /usr/lib/nvidia-173/xorg/nvidia_drv.so \
             --slave /etc/modprobe.d/nvidia-graphics-drivers.conf x86_64-linux-gnu_nvidia_modconf /lib/nvidia-173/modprobe.conf \
-            --slave /usr/lib/xorg/extra-modules x86_64-linux-gnu_xorg_extra_modules /usr/lib/nvidia-173/xorg \
-            --slave /usr/share/grub-gfxpayload-lists/blacklist/10_$PACKAGE_NAME x86_64-linux-gnu_grub_fb_blacklist /usr/share/nvidia-173/nvidia-173.grub-gfxpayload
+            --slave /usr/lib/x86_64-linux-gnu/xorg/extra-modules x86_64-linux-gnu_xorg_extra_modules /usr/lib/nvidia-173/xorg \
+            --slave /usr/share/grub-gfxpayload-lists/blacklist/10_proprietary-graphics-drivers x86_64-linux-gnu_grub_fb_blacklist /usr/share/nvidia-173/nvidia-173.grub-gfxpayload
 
         # Install just the ld.so.conf.d alternative for the secondary architecture.
         # We need only to ensure that any mesa ld.so.conf.d alternative isn't active.
         update-alternatives --force \
-            --install /etc/ld.so.conf.d/i386-linux-gnu_GL.conf i386-linux-gnu_gl_conf /usr/lib/nvidia-173/ld.so.conf 9620
+            --install /etc/ld.so.conf.d/i386-linux-gnu_GL.conf i386-linux-gnu_gl_conf /usr/lib/nvidia-173/alt_ld.so.conf 9620
 
         # ldconfig needs to be run immediately as we're changing /etc/ld.so.conf.d/ with
         # alternatives.
