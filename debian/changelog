@@ -1,8 +1,12 @@
-nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu3) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu3) oneiric; urgency=low
 
-  * 
+  * debian/rules:
+    - Remove trailing spaces.
+    - Blacklist the updates flavours in modprobe.conf.
+    - Add an initramfs hook to make sure that nothings else loads
+      open graphics drivers in the initramfs (LP: #839524).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 07 Sep 2011 16:51:44 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 07 Sep 2011 17:09:24 +0200
 
 nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu2) oneiric; urgency=low
 
