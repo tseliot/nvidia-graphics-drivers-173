@@ -1,8 +1,13 @@
-nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu4) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu4) oneiric; urgency=low
 
-  * 
+  * debian/rules:
+    - Make sure that the module alias is always correct and
+      uses underscores instead of hyphens (LP: #855396).
+    - Make the grub-gfxpayload file a template and blacklist
+      all Nvidia cards so that Grub doesn't set a framebuffer
+      which prevents recovery mode from working (LP: #854967).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 30 Sep 2011 10:08:05 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 30 Sep 2011 10:12:49 +0200
 
 nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu3) oneiric; urgency=low
 
