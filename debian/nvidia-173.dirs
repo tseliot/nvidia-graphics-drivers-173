@@ -1,5 +1,4 @@
 /etc/modprobe.d
-/usr/share/initramfs-tools/conf-hooks.d
 /usr/lib/nvidia-173
 /etc/xdg/autostart
 /usr/bin
