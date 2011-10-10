@@ -1,5 +1,4 @@
 #SYSCONFDIR#/modprobe.d
-/usr/share/initramfs-tools/conf-hooks.d
 #PKGLIBDIR#
 #AUTOSTARTDIR#
 #BINDIR#
