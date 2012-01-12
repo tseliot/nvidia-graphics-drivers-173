@@ -1,8 +1,8 @@
-nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu7) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu7) precise; urgency=low
 
-  * 
+  * Remove leftover from git.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 12 Jan 2012 18:51:23 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 12 Jan 2012 18:51:59 +0100
 
 nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu6) precise; urgency=low
 
