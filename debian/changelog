@@ -1,8 +1,16 @@
-nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu6) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu6) precise; urgency=low
 
-  * 
+  [ Daniel van Vugt ]
+  * debian/dkms.conf{.in}:
+    - Fix failure to install with kernel 3.2 (LP: #576648).
+    - Drop non-functional OBSOLETE_BY variable.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 12 Jan 2012 18:17:44 +0100
+  [ Alberto Milone ]
+  * debian/nvidia-$flavour.prerm.in:
+    - Use the right path to remove the alternative for the
+      other architecture (LP: #915461).
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 12 Jan 2012 18:25:41 +0100
 
 nvidia-graphics-drivers-173-updates (173.14.30-0ubuntu5) oneiric; urgency=low
 
