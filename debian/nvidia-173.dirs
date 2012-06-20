@@ -9,7 +9,7 @@
 /usr/lib32/nvidia-173
 /usr/lib/xorg/modules/drivers
 /usr/lib/xorg/modules/extensions
-/usr/lib/i386-linux-gnu/xorg
+/usr/lib/x86_64-linux-gnu/xorg
 /usr/share/nvidia-173
 /usr/share/nvidia-173
 /usr/share/man/man1
@@ -18,6 +18,6 @@
 /usr/share/grub-gfxpayload-lists/blacklist
 /usr/lib/nvidia-173/xorg
 /usr/lib/nvidia-173/xorg
-/usr/src/nvidia-173-173.14.30
-/usr/src/nvidia-173-173.14.30/patches
+/usr/src/nvidia-173-173.14.35
+/usr/src/nvidia-173-173.14.35/patches
 /lib/nvidia-173
