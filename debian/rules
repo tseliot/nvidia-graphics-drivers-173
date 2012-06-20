@@ -13,8 +13,8 @@ VIDEODEP = $(shell cat /usr/share/xserver-xorg/videodrvdep 2>/dev/null)
 
 # Manual VIDEO ABI dependencies
 # Comment out the following 2 lines to re-enable automatic ABI detection
-#VIDEODEP = xorg-video-abi-8.0, xserver-xorg-core (>= 2:1.8.99.905-1ubuntu3)
-#VIDEOABI = 8
+VIDEODEP = xorg-video-abi-10, xserver-xorg-core (>= 2:1.8.99.905-1ubuntu3)
+VIDEOABI = 10
 
 VIDDRIVER_PROVIDES = xorg-driver-video
 

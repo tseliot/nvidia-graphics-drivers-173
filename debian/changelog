@@ -1,3 +1,11 @@
+nvidia-graphics-drivers-173 (173.14.30-0ubuntu11) precise; urgency=low
+
+  * Oops!  This driver does not actually support Xserver 1.11.  Rebuild,
+    manually specifying video ABI 10.  This will prevent Jockey from
+    automatically installing it.
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 25 Jan 2012 17:48:57 +1100
+
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu10) precise; urgency=low
 
   * Rebuild against Xserver 1.11 to pick up new dependencies.
