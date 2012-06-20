@@ -1,3 +1,9 @@
+nvidia-graphics-drivers-173 (173.14.35-0ubuntu1) UNRELEASED; urgency=low
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 20 Jun 2012 16:10:19 +0200
+
 nvidia-graphics-drivers-173 (173.14.30-0ubuntu11) precise; urgency=low
 
   * Oops!  This driver does not actually support Xserver 1.11.  Rebuild,
