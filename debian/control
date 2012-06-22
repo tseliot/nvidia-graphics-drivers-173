@@ -2,7 +2,7 @@ Source: nvidia-graphics-drivers-173-updates
 Section: restricted/misc
 Priority: optional
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2,
+Build-Depends: debhelper (>> 4.0.0), sed (>> 3.0), libxext6, bzip2,
  xserver-xorg-dev (>= 2:1.4), execstack, cdbs, dh-modaliases
 Standards-Version: 3.8.0
 
@@ -32,7 +32,7 @@ Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
 
 Package: nvidia-173-updates-dev
 Architecture: i386 amd64 lpia
-Depends: nvidia-173-updates (>= 173.14.30)
+Depends: nvidia-173-updates (>= 173.14.35)
 Description: NVIDIA binary Xorg driver development files
  This package contains the NVIDIA binary Xorg driver
  development files.

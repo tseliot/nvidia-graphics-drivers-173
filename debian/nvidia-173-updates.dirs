@@ -18,6 +18,6 @@
 /usr/share/grub-gfxpayload-lists/blacklist
 /usr/lib/nvidia-173-updates/xorg
 /usr/lib/nvidia-173-updates/xorg
-/usr/src/nvidia-173-updates-173.14.30
-/usr/src/nvidia-173-updates-173.14.30/patches
+/usr/src/nvidia-173-updates-173.14.35
+/usr/src/nvidia-173-updates-173.14.35/patches
 /lib/nvidia-173-updates
