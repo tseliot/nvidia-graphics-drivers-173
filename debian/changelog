@@ -1,8 +1,8 @@
-nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu2) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu2) quantal; urgency=low
 
-  * 
+  * Rebuild against the new xserver abi.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 03 Jul 2012 16:04:40 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 03 Jul 2012 16:05:11 +0200
 
 nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu1) quantal; urgency=low
 
