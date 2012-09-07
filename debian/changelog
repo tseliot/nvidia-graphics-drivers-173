@@ -1,8 +1,13 @@
-nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu3) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu3) quantal; urgency=low
 
-  * 
+  * debian/control.in:
+    - Conflict with/replace/provide nvidia and fglrx. This will make
+      sure that other binary drivers cannot be installed at the same
+      time. This is required by the new restricted drivers UI.
+  * debian/rules:
+    - Hardcode ABIs 11 and 12.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 07 Sep 2012 15:34:22 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 07 Sep 2012 15:43:49 +0200
 
 nvidia-graphics-drivers-173-updates (173.14.35-0ubuntu2) quantal; urgency=low
 
