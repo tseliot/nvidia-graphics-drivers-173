@@ -38,7 +38,7 @@ Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
 
 Package: nvidia-173-dev
 Architecture: i386 amd64 lpia
-Depends: nvidia-173 (>= 173.14.35)
+Depends: nvidia-173 (>= 173.14.36)
 Description: NVIDIA binary Xorg driver development files
  This package contains the NVIDIA binary Xorg driver
  development files.
