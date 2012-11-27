@@ -1,8 +1,11 @@
-nvidia-graphics-drivers-173 (173.14.36-0ubuntu1) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.36-0ubuntu1) raring; urgency=low
 
-  * 
+  * New upstream release:
+    - Added support for xserver ABI 13 (xorg-server 1.13)
+      (LP: #1064192).
+  * Add support for Linux 3.7.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Nov 2012 13:03:35 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 27 Nov 2012 11:55:50 +0100
 
 nvidia-graphics-drivers-173 (173.14.35-0ubuntu3) quantal; urgency=low
 
