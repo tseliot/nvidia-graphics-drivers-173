@@ -8,20 +8,13 @@ Standards-Version: 3.8.0
 
 Package: #DRIVERNAME#
 Architecture: i386 amd64 lpia
-Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev,
- linux-headers-generic | linux-headers, patch, acpid, ${shlibs:Depends},
- ${xviddriver:Depends}
+Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms,
+ linux-libc-dev, libc6-dev, patch, acpid, ${misc:Depends},
+ ${shlibs:Depends}, ${xviddriver:Depends}
 Recommends: nvidia-settings
-Provides: nvidia-experimental-304, nvidia-experimental-310,
- nvidia-current-updates, nvidia-current, nvidia-96,
- nvidia-96-updates, nvidia-173-updates, fglrx, fglrx-updates,
- ${xviddriver:Provides}
-Conflicts: nvidia-173-modaliases, nvidia-experimental-304,
- nvidia-experimental-310, nvidia-current, nvidia-current-updates,
- nvidia-96, nvidia-96-updates, nvidia-173-updates, fglrx, fglrx-updates
-Replaces: nvidia-173-modaliases, nvidia-experimental-304,
- nvidia-experimental-310, nvidia-current, nvidia-current-updates,
- nvidia-173-updates, nvidia-96, nvidia-96-updates, fglrx, fglrx-updates
+Provides: xorg-driver-binary, ${xviddriver:Provides}
+Conflicts: xorg-driver-binary
+Replaces: xorg-driver-binary
 XB-Modaliases: ${modaliases}
 Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
  The binary driver provide optimized hardware acceleration of OpenGL
@@ -39,7 +32,7 @@ Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
 
 Package: #DRIVERDEVNAME#
 Architecture: i386 amd64 lpia
-Depends: #DRIVERNAME# (>= #VERSION#)
+Depends: #DRIVERNAME# (>= #VERSION#), ${misc:Depends}
 Description: NVIDIA binary Xorg driver development files
  This package contains the NVIDIA binary Xorg driver
  development files.
