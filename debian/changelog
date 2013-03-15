@@ -1,8 +1,19 @@
-nvidia-graphics-drivers-173 (173.14.37-0ubuntu1) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.37-0ubuntu1) raring; urgency=low
 
-  * 
+  * debian/control.in:
+    - Conflict/replace/provide xorg-driver-binary.
+    - Remove dependencies on the linux headers.
+  * debian/dkms.conf.in:
+    - Drop the patch for Linux 3.7.
+  * debian/substvars:
+    - Add support for xorg-video-abi-14.
+  * New upstream release:
+    - Added support for X.Org xserver ABI 14 (xorg-server 1.14).
+    - Fixed font rendering performance and corruption problems
+      on X servers with backported support for the new glyph
+      cache functionality added to Pixman 0.27.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 15 Mar 2013 17:18:35 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 15 Mar 2013 18:25:37 +0100
 
 nvidia-graphics-drivers-173 (173.14.36-0ubuntu1) raring; urgency=low
 
