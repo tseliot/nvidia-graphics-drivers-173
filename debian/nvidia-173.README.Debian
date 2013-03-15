@@ -70,7 +70,7 @@ nvidia-173:
 
 4.  Temporarily move the debian/ directory out of the source directory
     and compress it as $SOURCE_NAME _ $NEW_VERSION . orig . tar . gz
-    e.g. nvidia-graphics-drivers-173_173.14.36.orig.tar.gz
+    e.g. nvidia-graphics-drivers-173_173.14.37.orig.tar.gz
 
 5.  Move the debian/ directory back to the source directory and type
     debuild -S -sa to produce a new .dsc
