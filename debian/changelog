@@ -1,8 +1,10 @@
-nvidia-graphics-drivers-173 (173.14.37-0ubuntu2) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.37-0ubuntu2) saucy; urgency=low
 
-  * 
+  * debian/dkms.conf.in,
+    debian/dkms/patches/fix-build-with-linux-3.10.patch:
+    - Add support for Linux 3.10.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 13 Jun 2013 15:21:33 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 18 Jun 2013 17:12:49 +0200
 
 nvidia-graphics-drivers-173 (173.14.37-0ubuntu1) raring; urgency=low
 
