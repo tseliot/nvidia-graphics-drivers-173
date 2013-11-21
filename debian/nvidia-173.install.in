@@ -19,10 +19,3 @@ debian/temp/modules/nvidia-kernel/nv/*        usr/src/#DRIVERNAME#-#VERSION#
 #DIRNAME#/usr/bin/nvidia-bug-report.sh #PKGBINDIR#
 #DIRNAME#/usr/bin/nvidia-xconfig #PKGBINDIR#
 #DIRNAME#/usr/bin/nvidia-smi #PKGBINDIR#
-
-#DIRNAME#/usr/share/pixmaps/#DRIVERNAME#-settings.png #DATADIR#/pixmaps
-
-debian/ubuntu-nvidia-settings.desktop   #PKGDESKDIR#
-
-debian/#AUTOSTARTFILE# #PKGDATADIR#
-
