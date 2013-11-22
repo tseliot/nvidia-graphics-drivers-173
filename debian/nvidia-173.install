@@ -19,10 +19,3 @@ debian/temp/modules/nvidia-kernel/nv/*        usr/src/nvidia-173-173.14.37
 NVIDIA-Linux-x86_64-173.14.37-pkg2/usr/bin/nvidia-bug-report.sh /usr/lib/nvidia-173/bin
 NVIDIA-Linux-x86_64-173.14.37-pkg2/usr/bin/nvidia-xconfig /usr/lib/nvidia-173/bin
 NVIDIA-Linux-x86_64-173.14.37-pkg2/usr/bin/nvidia-smi /usr/lib/nvidia-173/bin
-
-NVIDIA-Linux-x86_64-173.14.37-pkg2/usr/share/pixmaps/nvidia-173-settings.png /usr/share/pixmaps
-
-debian/ubuntu-nvidia-settings.desktop   /usr/share/nvidia-173
-
-debian/nvidia-autostart.desktop /usr/share/nvidia-173
-

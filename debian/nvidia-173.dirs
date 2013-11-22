@@ -1,6 +1,5 @@
 /etc/modprobe.d
 /usr/lib/nvidia-173
-/etc/xdg/autostart
 /usr/bin
 /usr/lib/nvidia-173/tls
 /usr/include/GL
@@ -11,9 +10,7 @@
 /usr/lib/xorg/modules/extensions
 /usr/lib/x86_64-linux-gnu/xorg
 /usr/share/nvidia-173
-/usr/share/nvidia-173
 /usr/share/man/man1
-/usr/share/pixmaps
 /usr/share/lintian/overrides
 /usr/share/grub-gfxpayload-lists/blacklist
 /usr/lib/nvidia-173/xorg

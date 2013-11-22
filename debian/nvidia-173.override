@@ -42,7 +42,6 @@ nvidia-173: unused-shlib-entry-in-control-file libnvidia-tls 190
 nvidia-173: shlibs-declares-dependency-on-other-package libgl1-mesa | libgl1
 nvidia-173: prerm-calls-ldconfig
 nvidia-173: copyright-without-copyright-notice
-nvidia-173: desktop-command-not-in-package /usr/share/applications/nvidia-173/ubuntu-nvidia-settings.desktop /usr/bin/nvidia-settings
 nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/libnvidia-tls.so.173.14.37
 nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.37
 nvidia-173: shared-lib-without-dependency-information ./usr/lib/tls/libnvidia-tls.so.173.14.37
