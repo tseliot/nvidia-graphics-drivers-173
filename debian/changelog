@@ -1,8 +1,13 @@
-nvidia-graphics-drivers-173 (173.14.37-0ubuntu6) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.37-0ubuntu6) trusty; urgency=low
 
-  * 
+  * debian/templates/nvidia-graphics-drivers.{install|postinst|prerm}.in,
+    debian/glamor.conf:
+    - Do not update gmenucache.
+    - Disable the glamoregl module.
+  * Remove any .desktop file accidentally left in the previous
+    revision.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 28 Nov 2013 14:59:12 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 28 Nov 2013 15:06:48 +0100
 
 nvidia-graphics-drivers-173 (173.14.37-0ubuntu5) trusty; urgency=low
 
