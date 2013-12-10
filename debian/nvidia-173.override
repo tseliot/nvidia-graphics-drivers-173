@@ -1,50 +1,50 @@
-nvidia-173: library-not-linked-against-libc ./usr/lib/libGL.so.173.14.37
+nvidia-173: library-not-linked-against-libc ./usr/lib/libGL.so.173.14.39
 
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/libGLcore.so.173.14.37
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/libGLcore.so.173.14.39
 
-nvidia-173: library-not-linked-against-libc ./usr/lib/xorg/modules/extensions/libglx.so.173.14.37
+nvidia-173: library-not-linked-against-libc ./usr/lib/xorg/modules/extensions/libglx.so.173.14.39
 
-nvidia-173: shlib-with-non-pic-code usr/lib/libGL.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/libGLcore.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/xorg/modules/extensions/libglx.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/libXvMCNVIDIA.so.173.14.37
+nvidia-173: shlib-with-non-pic-code usr/lib/libGL.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/libGLcore.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/xorg/modules/extensions/libglx.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/libXvMCNVIDIA.so.173.14.39
 
-nvidia-173: non-dev-pkg-with-shlib-symlink usr/lib/libGL.so.173.14.37 usr/lib/libGL.so
-nvidia-173: non-dev-pkg-with-shlib-symlink usr/lib/xorg/modules/extensions/libglx.so.173.14.37 usr/lib/xorg/modules/extensions/libglx.so
+nvidia-173: non-dev-pkg-with-shlib-symlink usr/lib/libGL.so.173.14.39 usr/lib/libGL.so
+nvidia-173: non-dev-pkg-with-shlib-symlink usr/lib/xorg/modules/extensions/libglx.so.173.14.39 usr/lib/xorg/modules/extensions/libglx.so
 
 
-nvidia-173: script-not-executable usr/src/nvidia-173-173.14.37/conftest.sh
+nvidia-173: script-not-executable usr/src/nvidia-173-173.14.39/conftest.sh
 nvidia-173: maintainer-script-ignores-errors prerm
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libGL.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libGL.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libGLcore.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libGLcore.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-cfg.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libnvidia-cfg.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libvdpau.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/vdpau/libvdpau_nvidia.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/vdpau/libvdpau_nvidia.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/vdpau/libvdpau_trace.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/xorg/libglx.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/xorg/libglx.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib/vdpau/libvdpau_nvidia.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/vdpau/libvdpau_nvidia.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/vdpau/libvdpau_trace.so.173.14.37
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libGL.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libGL.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libGLcore.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libGLcore.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-cfg.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libnvidia-cfg.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libvdpau.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/vdpau/libvdpau_nvidia.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/vdpau/libvdpau_nvidia.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/vdpau/libvdpau_trace.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/nvidia-173/xorg/libglx.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/xorg/libglx.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib/vdpau/libvdpau_nvidia.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/vdpau/libvdpau_nvidia.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib/vdpau/libvdpau_trace.so.173.14.39
 nvidia-173: unused-shlib-entry-in-control-file libnvidia-tls 190
 nvidia-173: shlibs-declares-dependency-on-other-package libgl1-mesa | libgl1
 nvidia-173: prerm-calls-ldconfig
 nvidia-173: copyright-without-copyright-notice
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/tls/libnvidia-tls.so.173.14.37
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/tls/libnvidia-tls.so.173.14.39
 nvidia-173: unknown-section restricted/misc
 nvidia-185-modaliases: copyright-without-copyright-notice
 nvidia-185-modaliases: extended-description-line-too-long
@@ -53,33 +53,33 @@ nvidia-glx-185-dev: extended-description-line-too-long
 nvidia-glx-185-dev: unknown-section restricted/misc
 nvidia-185-kernel-source: copyright-without-copyright-notice
 nvidia-185-kernel-source: unknown-section restricted/misc
-nvidia-173-dev: shlib-with-non-pic-code usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.37
-nvidia-173-dev: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.37
+nvidia-173-dev: shlib-with-non-pic-code usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.39
+nvidia-173-dev: shlib-without-PT_GNU_STACK-section usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.39
 nvidia-173-dev: postinst-has-useless-call-to-ldconfig
 nvidia-173-dev: postrm-has-useless-call-to-ldconfig
 nvidia-173-dev: copyright-without-copyright-notice
-nvidia-173-dev: missing-dependency-on-libc needed by ./usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.37
+nvidia-173-dev: missing-dependency-on-libc needed by ./usr/lib/nvidia-173/libXvMCNVIDIA.so.173.14.39
 nvidia-173-dev: unknown-section restricted/misc
 nvidia-glx-185: copyright-without-copyright-notice
 nvidia-glx-185: unknown-section restricted/misc
 nvidia-173-modaliases: copyright-without-copyright-notice
 
-nvidia-173: script-not-executable ./usr/src/nvidia-173-173.14.37/conftest.sh
+nvidia-173: script-not-executable ./usr/src/nvidia-173-173.14.39/conftest.sh
 nvidia-173: maintainer-script-ignores-errors prerm
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGL.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGLcore.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-cfg.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libvdpau_nvidia.so.173.14.37
-nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.37
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGL.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libGLcore.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib32/nvidia-173/libXvMCNVIDIA.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-cfg.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/libvdpau_nvidia.so.173.14.39
+nvidia-173: shlib-with-non-pic-code usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shlib-without-PT_GNU_STACK-section usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.39
 
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib/tls/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib32/nvidia-173/libnvidia-tls.so.173.14.37
-nvidia-173: shared-lib-without-dependency-information ./usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.37
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/nvidia-173/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib/tls/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib32/nvidia-173/libnvidia-tls.so.173.14.39
+nvidia-173: shared-lib-without-dependency-information ./usr/lib32/nvidia-173/tls/libnvidia-tls.so.173.14.39
 
 
