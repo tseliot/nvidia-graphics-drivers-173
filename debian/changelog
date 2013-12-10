@@ -1,8 +1,15 @@
-nvidia-graphics-drivers-173 (173.14.39-0ubuntu1) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.39-0ubuntu1) trusty; urgency=low
 
-  * 
+  * New upstream release:
+    - Add support for X.org xserver ABI 15 (xorg-server 1.15).
+  * debian/dkms.conf.in:
+    - Drop patches for Linux 3.10 and 3.11.
+  * debian/substvars:
+    - Add support for xorg-video-abi-15.
+  * debian/rules:
+    - Add the download-sources target.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 10 Dec 2013 10:49:57 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 10 Dec 2013 11:40:38 +0100
 
 nvidia-graphics-drivers-173 (173.14.37-0ubuntu6) trusty; urgency=low
 
