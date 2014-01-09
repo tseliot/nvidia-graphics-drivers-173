@@ -1,8 +1,10 @@
-nvidia-graphics-drivers-173 (173.14.39-0ubuntu2) UNRELEASED; urgency=low
+nvidia-graphics-drivers-173 (173.14.39-0ubuntu2) trusty; urgency=low
 
-  * 
+  * debian/dkms.conf.in,
+    debian/dkms/patches/fix-build-with-linux-3.13.patch:
+    - Add support for Linux 3.13.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 09 Jan 2014 15:33:46 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 09 Jan 2014 15:37:51 +0100
 
 nvidia-graphics-drivers-173 (173.14.39-0ubuntu1) trusty; urgency=low
 
